@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Death Race 2020</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="intro">
+       
+            <h1>DEATH RACE 2020</h1>
+            <p><span>run to your death...</span> or die trying</p>
+            <p class="top-text"> THE RUN OF YOUR LIFE</p>
+       
+
+    </div>
+    <div id="MainContent" class="main-content">
+       
+            <h2>Life is short</h2>
+            <p>Register Today</p>
+            <p>No food. No water. No breaks. No participation trophies. NO WAY OUT. It's just you vs. you. In a race to the death.
+                If you can survive this race, you're doing it wrong.
+            </p>
+            <!-- Form-->
+
+            <form id= "EmailCollector" class="email-collector" action="#" method="#">
+               
+                    <h2>Select a race</h2>
+
+                 <div class="radioCheck"> 
+
+                   <div class="noSpace">
+                      
+                        <label for="covid5k">The Covid 5k</label>
+                        <input type="radio" name="race" id="covid5k">
+                        
+                        
+                    </div>
+                    
+                    <div class="noSpace">
+                       
+                        <label for="halfDead">The Half Dead Half Marathon</label>
+                        <input type="radio" name="race" id="halfDead">
+                        
+                    </div>
+                    <div class="noSpace">
+                        <label for="marathon">The Goggins</label>
+                        <input type="radio" name="race" id="marathon">
+                    </div>
+
+                    
+                </div>
+
+                <div class="ageSelect">
+                    <label for="division"> Select Age Group</label>
+                    <select name="division" id="division">
+    
+                        <option value="ya">18-30</option>
+                        <option value="adult">30-50</option>
+                        <option value="senior">18-30</option>
+                    </select>
+                </div>
+
+                
+                
+                <input name="firstName" type="text" placeholder="first name" required>
+
+                <input name="lastName" type="text" placeholder="last name" required>
+
+                <input name="emailAddress" type="email" placeholder="email" required>
+                
+                
+
+                
+                
+                <button class="btn btn-primary" type="submit">Register</button>
+            </form>
+
+            <p class="fine-print">We'll never share your information without your permission</p>
+       
+    </div>
+    
+   
+   <script src="index.js"></script> 
+</body>
+</html>
