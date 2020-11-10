@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.75;
+    letter-spacing: .75px;
+}
+
+
+.container-top{
+   
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+    background: linear-gradient(#e66465, #9198e5);
+    padding-bottom: 1em;
+    color: white;
+    font-size: 1.5rem;
+   
+  
+    
+}
+.container-top hr{
+    margin: .5em 2em;
+    color: rgb(99, 107, 196, .4);
+
+    
+   
+}
+
+.mainPicDiv{
+    width: 30vw;
+    margin: 4em auto .75em;
+   
+}
+
+.felixKrullPic{
+    width: 100%;
+    border-radius: 50%;
+    
+   
+}
+.introduction{
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+  
+}
+.webDev{
+   padding-right: 1em;
+   padding-left: 1em;
+}
+
+     
+
+.container-divide{
+    background: #f9f6e6;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    color: #9198e5;
+    font-weight: bolder;
+}
+
+p > a{
+    color: inherit;
+    text-decoration: none;
+
+}
+.container-skills{
+    background: linear-gradient(#9198e5, #e66465 );
+    display: flex;
+    flex-direction: column;
+   
+}
+.skills{
+    padding: 4em 2em 1em 2em;
+}
+.skills h2{
+    color: white;
+    text-align: center;
+}
+.skills h3{
+    color: #424883;
+}
+.skills p{
+    font-weight: 900;
+    margin-bottom: 1em;
+}
+
+.container-skills hr{
+    color: rgb(99, 107, 196, .4);
+    margin: .5em 0;
+}
+
+.contact{
+    padding: .5em 2em 1em 2em;
+    color: white;
+   
+   
+
+}
+.contact h2{
+    text-align: center;
+}
+.contact hr{
+    margin-bottom: 2.5em;
+}
+
+.email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 6.5em;
+}
+.email p{
+    margin-right: 4em;
+    font-weight: 700;
+}
+.phoneNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 6.5em;
+}
+.phoneNumber p{
+    margin-right: 9.1em;
+    font-weight: 700;
+}
+.fas{
+    color: black;
+    margin-right: 1em;
+   
+}
+
+.recent-posts{
+    padding: 3em 2em 1em 2em;
+  
+
+}
+.recent-posts h2{
+    text-align: center;
+    color: white;
+}
+.posts{
+    margin-top: 1em;
+}
+.post-date{
+    width: 15vw;
+    margin-right: 1em;
+ 
+   
+}
+.post-title{
+    color: white; 
+    width: 40vw;
+    margin-left: 1em; 
+
+}
+.post-titles{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.post-titles div{
+    display: flex;
+   
+} 
+
+.post-titles div p{
+    display: inline-block;
+    margin-bottom: 1em;  
+
+}
+
+ 
+
+.recent-posts p{
+    font-weight: 700;
+}
+
+.container-bottom{
+    background: linear-gradient(#e66465,#9198e5);
+    
+}
+.container-bottom h2{ 
+    color: white;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+
+}
+.container-bottom hr{
+
+    color: rgb(99, 107, 196, .4);
+    margin: 0 3em 0 3em;
+
+}
+
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.form-pic-div{
+    padding-top: 2em;
+    width: 80vw;
+    
+    
+}
+.form-pic-div p{
+    font-size: .75rem;
+    text-align: center;
+    font-weight: bolder;
+
+}
+.form-pic-div a{
+    color: inherit;
+    text-decoration: none;
+   
+  
+}
+.form-pic-div a:hover{
+    color: inherit;
+   
+   
+
+}
+.form-pic{
+    width: 100%;
+    border: 4px solid white;
+  
+}
+
+footer{
+    background: linear-gradient(#9198e5, #e66465);
+    text-align: center;
+    padding-top: 5em;
+    padding-bottom: 2em;
+}
+
+footer p{
+    color: white;
+    font-weight: bolder;
+}
+
+@media (min-width: 600px){
+    .container-top{
+        flex-direction: row;
+    }
+
+    .felixKrullPic{
+        margin-left: 2em;
+
+       
+    }
+    .introduction{
+       margin-top: 4.25em;
+      
+    }
+
+
+    .skills h2{
+        text-align: left;
+    }
+
+    .contact h2{
+        text-align: left;
+    }
+
+
+    .email{
+
+        justify-content: left;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+       
+        
+    }
+   
+    .phoneNumber{
+        justify-content: left;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 0;
+    }
+
+    .recent-posts h2{
+        text-align: left;
+       
+    }
+    .felixKrullPic{
+        max-width: 80%;
+    }
+  
+   
+
+
+}
+
+@media (min-width: 770px){
+
+    .container-skills{
+        flex-direction: row;
+        align-items: baseline;
+       
+    }
+
+    .skills{
+        width: 50vw;
+        padding-left: 4em;
+        margin-top: 0;
+
+    }
+    .skills hr{
+        margin-bottom: 1.3em;
+    }
+    .skills h3{
+        margin-bottom: .5em;
+    }
+    .contact-and-posts{
+        width: 30vw;
+    }
+    .contact hr{
+        margin-bottom: 0;
+    }
+
+    .email{
+        margin-top: 1.5em;
+        margin-bottom: 0;
+    }
+    .phoneNumber{
+        margin-top: 0;
+        margin-bottom: .6em;
+    }
+
+    .recent-posts{
+        padding: 0em 2em 1em 2em;
+      
+    
+    }
+    
+    
+    .post-title{
+        width: 12vw;
+        font-size: .95rem;
+    }
+
+    .projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+         
+    }
+
+    .container-bottom h2{
+        text-align: left;
+        margin-left: 2.6em;
+    }
+    .container-bottom hr{
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+   .form-pic-div{
+    
+      width: 30%;
+      margin-right: auto;
+      margin-left: auto;
+      padding-left: 1em;
+      padding-right: 1em;
+     
+      
+   }
+
+   .last{
+       order: 2;
+   }
+
+   .felixKrullPic{
+    max-width: 70%;
+}
+   
+
+
+}
+
+@media (min-width: 820px){
+    .introduction{
+        padding-top: 1em;
+        padding-right: 3em;
+
+    } 
+    .contact-and-posts{
+        padding-right: 0;
+        margin-right: 0;
+        padding-left: 3em;
+       
+    }
+   
+}
+@media (min-width: 960px){
+    .projects{
+        max-width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+@media (min-width: 980px){
+    .introduction{
+        padding-top: 2em;
+        padding-right: 6em;
+
+    } 
+}
+
+@media (min-width: 1066px){
+    .introduction{
+        padding-top: 3em;
+       
+
+    } 
+   
+}
+
