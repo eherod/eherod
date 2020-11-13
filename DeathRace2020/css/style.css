@@ -1,6 +1,10 @@
 /* font-family: 'Source Sans Pro', sans-serif; */
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+   
 }
 body{
     margin: 0;
@@ -8,7 +12,9 @@ body{
     font-size: 1rem;
     color: #404040;
     text-align: center;
+    padding: 0;
     overflow-x: hidden;
+    
 }
 
 /* ==============
@@ -70,6 +76,13 @@ strong{
     font-size: .625rem;
     letter-spacing: 1px;
 }
+.message{
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: rgb(0, 0, 0, .5);
+}
 
 /* ==============
     Intro Section
@@ -116,11 +129,14 @@ strong{
        max-width: 300px;
        margin-left: auto;
        margin-right: auto;
+       
    }
    input,
    .btn {
        width: 100%;
        border-radius: 3px;
+      
+     
       
    }
    input{
@@ -136,8 +152,12 @@ strong{
    .radioCheck{
        text-align: left;
        padding-top: 1em;
-       padding-bottom: 2em;
-       
+       padding-bottom: 2em;  
+   }
+
+   input[type=radio]{
+    box-shadow: none;
+    
    }
  label{
      display: inline-block;
