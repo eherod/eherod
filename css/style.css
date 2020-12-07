@@ -212,6 +212,7 @@ p > a{
 .form-pic-div{
     padding-top: 2em;
     width: 80vw;
+   
     
     
 }
@@ -219,6 +220,7 @@ p > a{
     font-size: .75rem;
     text-align: center;
     font-weight: bolder;
+
 
 }
 .form-pic-div a{
@@ -236,6 +238,7 @@ p > a{
 .form-pic{
     width: 100%;
     border: 4px solid white;
+    
   
 }
 
@@ -376,7 +379,7 @@ footer p{
       margin-left: auto;
       padding-left: 1em;
       padding-right: 1em;
-     height: auto;
+     
       
    }
 
