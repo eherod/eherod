@@ -16,6 +16,10 @@ I am currently working on:
 - learning OOP with php 
 - revisiting CSS concepts that I do not fully grasp (even though I can use them)
 
+---
+
+This week I discovered [Dev.to](https://dev.to)
+
 
 
 <!--
