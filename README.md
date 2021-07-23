@@ -18,7 +18,12 @@ I am currently working on:
 
 ---
 
-This week I discovered [Dev.to](https://dev.to)
+This week I discovered [Dev.to](https://dev.to). I intend to begin making tutorial blogs on this site immediately as a way to help my developer skills grow. I might turn these blogs into video content as well. I expect this github README to change constantly in the next couple weeks as I begin to add projects to my portfolio and begin producing web dev related content.
+
+
+I am looking for any type of collaborative project, even if it is only a practice project. I just want the experience.
+
+You can reach me at <ericjherod@gmail.com>
 
 
 
